@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-pizzaria.png" alt="logo da pizzaria" class="logo__PCRJ">
+    </header>
+    <main>
+        <form id="form">
+            <label for="total__conta__PCRJ">Valor total da conta:</label>
+            <input type="number" step="0.01" id="total__conta__PCRJ" required placeholder="Digite aqui">
+
+            <label for="taxa__PCRJ">Valor da taxa de serviço:</label>
+            <input id="taxa__PCRJ" required placeholder="Digite aqui" type="number" step="0.01">
+
+            <label for="pagantes__PCRJ">Quantidade de pagantes:</label>
+            <input id="pagantes__PCRJ" required placeholder="Digite aqui" type="number">
+
+            <button id="btn__calcular__PCRJ" class="btn__PCRJ">Calcular</button>
+        </form>
+
+        <div>
+            <p id="paragrafo__resultado__PCRJ" class="paragrafo__resultado__PCRJ"></p>
+        </div>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
