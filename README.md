@@ -1,5 +1,5 @@
 <div id="topo"></div>
-<h1 align="center">Projeto no intuito de um Desafio da Pizzaria</h1>
+<h1 align="center">Projeto Desafio da Pizzaria</h1>
 
 <h6 align="center">Projeto realizado com os aprendizados do Bootcamp   
 <a href="https://www.campinhodigital.org/"        target="_blank">Campinho Digital</a>.</h6>
